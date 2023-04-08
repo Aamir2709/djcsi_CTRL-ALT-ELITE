@@ -36,15 +36,7 @@ def whatsappScript(phoneNumber):
 
     if driver.current_url=="https://api.whatsapp.com/send/?phone=%2B91{phone}&text&type=phone_number&app_absent=0".format(phone=phoneNumber):
         print("hello")
-        # urlstring = 'https://web.whatsapp.com/send/?phone=%2B91{phone}&text&type=phone_number&app_absent=0'.format(phone=phoneNumber)
-        # button2 = WebDriverWait(driver, 10).until(
-        #     EC.presence_of_element_located((By.CSS_SELECTOR, "a._9vcv._9vcx[href={url}]".format(url=urlstring)))
-        # )
-        # Click the button
-        # button2.click()
-        # buttons = WebDriverWait(driver, 10).until(
-        #     EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a._9vcv._9vcx"))
-        # )
+
         buttons = driver.find_elements(By.XPATH, "//a[@class='_9vcv _9vcx']")
         # print(buttons.text)
         count = 0
@@ -58,16 +50,6 @@ def whatsappScript(phoneNumber):
 
         wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
-    # # Wait for the anchor tag to load
-    # button3 = WebDriverWait(driver, 10).until(
-    #     EC.presence_of_element_located((By.XPATH, "//a[span[contains(text(), 'Use WhatsApp Web')]]"))
-    # )
-
-    # # Click the button
-    # button3.click()
-    # wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-
-    # element = driver.find_element(By.CSS_SELECTOR, "[data-testid='popup-contents']")
     driver.implicitly_wait(10)
     try:
         element2 = driver.find_element(By.XPATH, "//*[contains(text(), 'Phone number shared via url is invalid.')]")

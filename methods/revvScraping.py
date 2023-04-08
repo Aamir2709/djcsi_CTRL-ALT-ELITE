@@ -21,12 +21,16 @@ def revvScript(email):
     # Open the URL
     url = "https://www.revv.co.in"
     driver.get(url)
+    try:
+        link = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Login or Signup")))
 
-    link = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Login or Signup")))
-
-    # Click on the link
-    link.click()
-
+        # Click on the link
+        link.click()
+       
+    except:
+        print("Login link not found")
+        
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
     wait.until(EC.element_to_be_clickable((By.NAME, 'email'))).send_keys(email)  
 
     # email_input = driver.find_element(By.xpath("//input[@placeholder='Enter your email']"))
