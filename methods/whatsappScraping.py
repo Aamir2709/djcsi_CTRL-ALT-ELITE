@@ -83,23 +83,12 @@ def whatsappScript(phoneNumber):
     driver.find_element(By.XPATH, "//header[@class='_23P3O']").click()
 
     try:
-        imageDiv = driver.find_element(By.XPATH, "//div[@role='button']/img").get_attribute("src")
+        imageDiv = driver.find_elements(By.XPATH, "//div[@role='button' and @class='g0rxnol2 g9p5wyxn i0tg5vk9 aoogvgrq o2zu3hjb']/img")
         # image = imageDiv.find_element(By.XPATH, "//div/img").get_attribute("src")
-        print(imageDiv)
+        print(imageDiv[1].get_attribute("src"))
     except:
         print("no image")
 
-    # textDetails = driver.find_element(By.XPATH, "//div[@class='gsqs0kct oauresqk efgp0a3n h3bz2vby g0rxnol2 tvf2evcx oq44ahr5 lb5m6g5c brac1wpa lkjmyc96 i4pc7asj bcymb0na myel2vfb e8k79tju']/span/span")
-    # text = textDetails.find_element(By.XPATH, "//span[@class='fe5nidar fs7pz031 tl2vja3b e1gr2w1z']").get_attribute("innerHTML")
-    # print(textDetails.text)
-    # for textDetail in textDetails:
-    #     text = textDetail.find_element(By.XPATH, "//div/div[@class='Er7QU copyable-text selectable-text']").text
-
-    
-     
-
-    # print(element2.text)
-    # print(element.text)
 
     # Close the webdriver
     driver.quit()   
@@ -107,4 +96,5 @@ def whatsappScript(phoneNumber):
 # whatsappScript("8830051111")
 # whatsappScript("9920397276")
 # whatsappScript("7093108528")
-whatsappScript("9930952429")
+# whatsappScript("9930952429")
+whatsappScript("9989058853")
