@@ -1,0 +1,135 @@
+.macbook-pro-14-1-child,
+.macbook-pro-14-1-item {
+  position: absolute;
+  top: 58.16rem;
+  left: 12.25rem;
+  width: 70.67rem;
+  height: 0.09rem;
+}
+.macbook-pro-14-1-item {
+  top: 68.14rem;
+  left: 12.27rem;
+}
+.enter-email-or,
+.output {
+  position: absolute;
+  top: 46.94rem;
+  left: 12.88rem;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 66.25rem;
+}
+.output {
+  top: 78.19rem;
+  left: 14.13rem;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-100);
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.group-item {
+  position: absolute;
+  top: 4.75rem;
+  left: 9.75rem;
+  width: 15rem;
+  height: 13rem;
+  object-fit: cover;
+}
+.whatsapp {
+  position: absolute;
+  top: 21.38rem;
+  left: 8.19rem;
+  letter-spacing: 0.02em;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 95.69rem;
+  left: 9.38rem;
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.amazon {
+  position: absolute;
+  top: 21.38rem;
+  left: 10.19rem;
+  letter-spacing: 0.02em;
+}
+.rectangle-group {
+  position: absolute;
+  top: 95.69rem;
+  left: 50.63rem;
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.truecaller {
+  position: absolute;
+  top: 21.38rem;
+  left: 8.13rem;
+  letter-spacing: 0.02em;
+}
+.rectangle-container {
+  position: absolute;
+  top: 132.81rem;
+  left: 9.38rem;
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.revv {
+  position: absolute;
+  top: 21.38rem;
+  left: 12.81rem;
+  letter-spacing: 0.02em;
+}
+.group-div {
+  position: absolute;
+  top: 132.81rem;
+  left: 50.63rem;
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.facebook {
+  position: absolute;
+  top: 21.38rem;
+  left: 8.69rem;
+  letter-spacing: 0.02em;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 168.31rem;
+  left: 30rem;
+  width: 34.5rem;
+  height: 28.75rem;
+}
+.macbook-pro-14-1-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105rem;
+  height: 38.13rem;
+  object-fit: cover;
+}
+.clrt-alt-elite {
+  position: absolute;
+  top: 15.63rem;
+  left: 21.06rem;
+  font-size: var(--font-size-81xl);
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-shadow: 15px 5px 5px rgba(0, 0, 0, 0.12);
+}
+.macbook-pro-14-1 {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 100%;
+  height: 201.38rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-35xl);
+  color: var(--color-white);
+  font-family: var(--font-coiny);
+}
